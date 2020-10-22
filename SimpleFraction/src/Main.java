@@ -3,7 +3,8 @@ public class Main {
 
 	public static void main(String[] args) {
        
-        System.out.println("Affichage de la fonction Main");
+		Fraction f= new Fraction(4,5);
+        System.out.println(f.toString());
     }
 
 }
